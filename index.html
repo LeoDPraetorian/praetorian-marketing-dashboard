@@ -514,9 +514,12 @@
       renderLinkedIn();
       renderActions();
       animateBars();
-      // Auto-expand blog and media
+      // Auto-expand all sections
       toggleSection('blog-section');
       toggleSection('media-section');
+      toggleSection('tools-section');
+      toggleSection('linkedin-section');
+      toggleSection('actions-section');
     }
 
     document.addEventListener('DOMContentLoaded', init);
